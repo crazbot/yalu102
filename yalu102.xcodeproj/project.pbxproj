@@ -336,6 +336,7 @@
 				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = /Volumes/Data/app/theos/vendor/include;
 				INFOPLIST_FILE = yalu102/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,7 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qorbot.yalu102;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -357,6 +358,7 @@
 				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = /Volumes/Data/app/theos/vendor/include;
 				INFOPLIST_FILE = yalu102/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -364,7 +366,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.qorbot.yalu102;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				VALID_ARCHS = "";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
